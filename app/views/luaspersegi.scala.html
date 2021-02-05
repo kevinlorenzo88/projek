@@ -1,0 +1,18 @@
+@(hitungluaspersegi: String)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persegi</title>
+</head>
+<body>
+    <a href="/">HOME </a><a href="/persegi"> kembali</a>
+    <h2>Hitung Bangun Datar " LUAS PERSEGI"</h2>
+    <form action="/hitungluaspersegi" method="GET">
+    <p>sisi : <input type="text" name="sisi"></p>
+    <input type="submit" value="Hitung Luas">
+    <p>Luas : @hitungluaspersegi</p>
+    </form>
+</body>
+</html>

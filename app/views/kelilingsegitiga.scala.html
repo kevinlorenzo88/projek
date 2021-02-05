@@ -1,0 +1,20 @@
+@(hitungkelilingsegitiga: String)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segitiga</title>
+</head>
+<body>
+    <a href="/">HOME </a><a href="/segitiga"> kembali</a>
+    <h2>Hitung Bangun Datar "KELILING SEGITIGA"</h2>
+    <form action="/hitungkelilingsegitiga" method="GET">
+    <p>nilai a : <input type="text" name="nia"></p>
+    <p>nilai b : <input type="text" name="nib"></p>
+    <p>nilai c : <input type="text" name="nic"></p>
+    <input type="submit" value="Hitung Keliling">
+    <p>Keliling : @hitungkelilingsegitiga</p>
+    </form>
+</body>
+</html>

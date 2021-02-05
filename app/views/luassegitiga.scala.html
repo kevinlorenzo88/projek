@@ -1,0 +1,19 @@
+@(hitungluassegitiga: String)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segitiga</title>
+</head>
+<body>
+    <a href="/">HOME </a><a href="/segitiga"> kembali</a>
+    <h2>Hitung Bangun Datar " LUAS SEGITIGA"</h2>
+    <form action="/hitungluassegitiga" method="GET">
+    <p>alas : <input type="text" name="alassegitiga"></p>
+    <p>tinggi : <input type="text" name="tinggisegitiga"></p>
+    <input type="submit" value="Hitung Luas">
+    <p>Luas : @hitungluassegitiga</p>
+    </form>
+</body>
+</html>
